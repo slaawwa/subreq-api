@@ -1,39 +1,40 @@
 # subreq-api
 
 
-Subscription on camera
+## Subscription on camera
 
-DELETE
-/topic/id
+### DELETE
+`/topic/id`
 200
 
-POST
-/topic
+### POST
+`/topic`
 Request: 
-{
+`{
  “name”: “Your topic name”,
-}
+}`
 Response: topic model json
 
 
-GET
-/topics
-Response { topics: [{ topic model }]}
+### GET
+`/topics`
+Response `{ topics: [{ topic model }] }`
 
-POST
-/startTopic
-{
+### POST
+`/startTopic`
+`{
  “id”: “topicId”
-}
+}`
 
-POST
-/stopTopic
-{
+### POST
+`/stopTopic`
+`{
  “id”: “topicId”
-}
+}`
 
-GET 
-/rules
+### GET 
+`/rules`
+```
 [ rules: {
  id: “uuid”,
  active: false,
@@ -50,9 +51,11 @@ GET
   body: { key: value }
  }
 }]
+```
 
-POST
-/rule
+### POST
+`/rule`
+```
 {
  name: “Name”,
  configuration: [
@@ -67,25 +70,32 @@ POST
   body: { key: value }
  }
 }
+```
 
-DELETE
-/rule/id
+### DELETE
+`/rule/id`
 
-POST
-/activateRule
+### POST
+`/activateRule`
+```
 {
  “id”: “ruleId”
 }
+```
 
-POST
-/deactivateRule
+### POST
+`/deactivateRule`
+```
 {
  “id”: “ruleId”
 }
+```
 
 Socket json logs:
+```
 {
  topic: [ topic model ],
  rules: [ {rule model} ],
  date: “Date”
 }
+```
