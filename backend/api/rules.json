@@ -1,0 +1,20 @@
+{
+  "rules": [
+    {
+      "id": "51de2ffa-0061-4dc0-a92d-7952b8648750",
+      "active": true,
+      "name": "Rule Name",
+      "configuration": [
+        {
+          "key": "JsonKey",
+          "value": "JsonValueOfKey"
+        }
+      ],
+      "target": {
+        "url": "url",
+        "queryParams": [{ "key": "value" }],
+        "body": { "key": "value" }
+      }
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 {
   "status": "done",
   "data": {
-    "server": true
+    "server": true,
+    "data": 123
   }
 }

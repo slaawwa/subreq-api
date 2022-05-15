@@ -1,5 +1,4 @@
 {
-  "status": "error",
-  "message": "My special error",
-  "data": null
+  "status": 1001,
+  "message": "My special error"
 }

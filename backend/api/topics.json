@@ -1,0 +1,24 @@
+{
+  "topics": [
+    {
+      "id": "7111d7d1-e52f-4e21-b75d-00b12af6177e",
+      "name": "Neurala",
+      "items": [
+        {
+          "id": 1,
+          "text": "Rule 1, Rule 2, Rule 3",
+          "disabled": false,
+          "date": "Sun, 15 May 2022 23:49:32 GMT",
+          "data": { "url": "https://kpi.wtf/" }
+        }
+      ],
+      "validKeys": []
+    },
+    {
+      "id": "7df0298e-9306-41e7-b041-f4664c2962de",
+      "name": "Box1",
+      "items": [],
+      "validKeys": []
+    }
+  ]
+}

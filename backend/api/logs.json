@@ -1,0 +1,11 @@
+{
+  "logs": [
+    {
+    "id": 1,
+    "text": "Rule 1, Rule 2, Rule 3",
+    "disabled": false,
+    "date": "Sun, 15 May 2022 23:49:32 GMT",
+    "data": { "url": "https://kpi.wtf/" }
+    }
+  ]
+}
